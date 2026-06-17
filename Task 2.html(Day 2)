@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arts and Science College Registration Form</title>
+</head>
+<body>
+
+<h2 align="center">ARTS AND SCIENCE COLLEGE REGISTRATION FORM</h2>
+
+<form>
+
+    <p>
+        Student Name :
+        <input type="text" name="sname" size="40">
+    </p>
+
+    <p>
+        Father's Name :
+        <input type="text" name="fname" size="40">
+    </p>
+
+    <p>
+        Mother's Name :
+        <input type="text" name="mname" size="40">
+    </p>
+
+    <p>
+        Age :
+        <input type="number" name="age" min="16" max="60">
+    </p>
+
+    <p>
+        Date of Birth :
+        <input type="date" name="dob">
+    </p>
+
+    <p>
+        Gender :
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+    </p>
+
+    <p>
+        Blood Group :
+        <select name="bloodgroup">
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+    </p>
+
+    <p>
+        Community :
+        <input type="radio" name="community"> BC
+        <input type="radio" name="community"> MBC
+        <input type="radio" name="community"> SC
+        <input type="radio" name="community"> ST
+        <input type="radio" name="community"> OC
+    </p>
+
+    <p>
+        Student Type :
+        <input type="radio" name="stype"> Day Scholar (DS)
+        <input type="radio" name="stype"> Hosteller
+    </p>
+
+    <p>
+        Email ID :
+        <input type="email" name="email" size="35">
+    </p>
+
+    <p>
+        Mobile Number :
+        <input type="tel" name="mobile">
+    </p>
+
+    <p>
+        Address :<br>
+        <textarea name="address" rows="4" cols="40"></textarea>
+    </p>
+
+    <p>
+        Department :
+        <select name="department">
+            <option>Computer Science</option>
+            <option>Mathematics</option>
+            <option>Physics</option>
+            <option>Chemistry</option>
+            <option>English</option>
+            <option>Commerce</option>
+        </select>
+    </p>
+
+    <p>
+        Admission Program :
+        <input type="radio" name="course"> UG
+        <input type="radio" name="course"> PG
+        <input type="radio" name="course"> PhD
+    </p>
+
+    <p>
+        Languages Known :
+        <input type="checkbox"> Tamil
+        <input type="checkbox"> English
+        <input type="checkbox"> Hindi
+    </p>
+
+    <p>
+        Upload Mark Sheet :
+        <input type="file">
+    </p>
+
+    <p>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </p>
+
+</form>
+
+</body>
+</html>
